@@ -10,5 +10,17 @@ export class ContactPage {
   constructor(public navCtrl: NavController) {
 
   }
+  if (this.gender = "m") {
+   statement........;
+}
+
+else if (this.gender= "f") {
+   statement......;
+
+}
+
+else {
+   statement..........;
+}
 
 }
