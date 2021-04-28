@@ -6,7 +6,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'contact.html'
 })
 export class ContactPage {
-  sex: string;
+  gender: string;
   ls: number;
   clr: number;
   ht: number;
@@ -16,7 +16,7 @@ export class ContactPage {
 
   constructor(public navCtrl: NavController) {}
   Calculate() {
-    if (this.sex = "m") {
+    if (this.gender = "m") {
       this.bmr = 10 * this.wt + 6.25 * this.ht - 5 * this.age + 5;
       this.clr = this.bmr * this.ls;
     }
