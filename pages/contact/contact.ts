@@ -17,7 +17,7 @@ export class ContactPage {
 
   constructor(public navCtrl: NavController) {}
   Calculate() {
-    if (this.gender = "m") {
+    if (this.gender == "m") {
       this.bmr = 10 * this.wt + 6.25 * this.ht - 5 * this.age + 5;
       this.dci = this.bmr * this.al;
     }
