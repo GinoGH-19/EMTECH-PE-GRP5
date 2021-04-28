@@ -9,7 +9,7 @@
 <ion-content>
   <h1>Daily Calorie Intake Calculator</h1>
   <p>
-    blah blahh
+    The calorie calculator is based on the Mifflin - St Jeor equation. It allows you to find your Basal Metabolic Rate (BMR) - the amount of energy needed for your body to support only its basic vital functions. It differs for men and women:
   </p>
   <p>
     Take a look at the <code>pages/</code> directory to add or change tabs,
@@ -23,5 +23,10 @@
       <ion-option value="f">Female</ion-option>
     </ion-select>
 </ion-item>
+
+  <ion-item>
+   <ion-label color="dark"> Height: </ion-label>
+   <ion-input type="number" [(ngModel)]="ht"> </ion-input>
+  </ion-item>
 
 </ion-content>
