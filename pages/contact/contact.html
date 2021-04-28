@@ -1,17 +1,27 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Calculator
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-left></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+<ion-content padding>
+  <h2>Do ya'll read this?</h2>
+  <p>
+    blah blahh
+  </p>
+  <p>
+    Take a look at the <code>pages/</code> directory to add or change tabs,
+    update any existing page or create new pages.
+  </p>
+
+  <ion-item>
+    <ion-label color="dark"> Gender: </ion-label>
+    <ion-select interface="popover" [(ngModel)]="gender">
+      <ion-option value="m">Male</ion-option>
+      <ion-option value="f">Female</ion-option>
+    </ion-select>
+</ion-item>
+
 </ion-content>
