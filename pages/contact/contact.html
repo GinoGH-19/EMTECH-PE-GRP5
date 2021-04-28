@@ -39,4 +39,16 @@
    <ion-input type="number" [(ngModel)]="age"> </ion-input>
   </ion-item>
 
+  <ion-item>
+    <ion-label color="dark"> Activity Level </ion-label>
+    <ion-select interface="popover" [(ngModel)]="al">
+      <ion-option value="1.2">Sedentary lifestyle (little or no exercise)</ion-option>
+      <ion-option value="1.4">Slightly active lifestyle (light exercise or sports 1-2 days/week)</ion-option>
+      <ion-option value="1.6">Moderately active lifestyle (moderate exercise or sports 2-3 days/week)</ion-option>
+      <ion-option value="1.75">Very active lifestyle (hard exercise or sports 4-5 days/week)</ion-option>
+      <ion-option value="2.0">Extra active lifestyle (very hard exercise, physical job or sports 6-7 days/week)</ion-option>
+      <ion-option value="2.3">Professional athlete</ion-option>
+    </ion-select>
+  </ion-item>
+
 </ion-content>
