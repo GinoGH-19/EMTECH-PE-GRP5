@@ -12,9 +12,9 @@
   <p>
     The calorie calculator is based on the Mifflin - St Jeor equation. It allows you to find your Basal Metabolic Rate (BMR) - the amount of energy needed for your body to support only its basic vital functions. It differs for men and women.
   </p>
-  </ion-card-conent>
+  </ion-card-content>
 
-  <ion-card-content>
+  <ion-card>
   <ion-item>
     <ion-label color="dark"> Gender: </ion-label>
     <ion-select interface="popover" [(ngModel)]="gender">
@@ -49,13 +49,14 @@
       <ion-option value="2.3">Professional athlete</ion-option>
     </ion-select>
   </ion-item>
+  </ion-card>
 
   <button ion-button color="primary" (click)="Calculate()"> CALCULATE </button>
   
+  <ion-card>
   <ion-item *ngIf="dci">
     <h2>Daily Calorie Intake: {{dci}} kcal/day</h2>
   </ion-item>
-
-  </ion-card-content>
+  </ion-card>
 
 </ion-content>
