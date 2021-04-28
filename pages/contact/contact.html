@@ -51,4 +51,9 @@
     </ion-select>
   </ion-item>
 
+  <button ion-button color="primary" (click)="Calculate()"> CALCULATE </button>
+  
+  <ion-item *ngIf="dci">
+    <h2>Daily Calorie Intake: {{dci}}</h2>
+  </ion-item>
 </ion-content>
