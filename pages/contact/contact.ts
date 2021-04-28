@@ -19,8 +19,4 @@ else if (this.gender= "f") {
 
 }
 
-else {
-   statement..........;
-}
-
 }
