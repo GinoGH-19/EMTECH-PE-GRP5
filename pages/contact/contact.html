@@ -51,8 +51,19 @@
   <ion-card>
   <ion-item *ngIf="dci">
     <h2>Daily Calorie Intake: {{dci}} kcal/day</h2>
-  
   </ion-item>
   </ion-card>
-
+  <ion-card>
+ <ion-item *ngIf="car">
+   <h2>Carbs: {{car}} kcal</h2>
+   </ion-item>
+    </ion-card>
+<ion-card> <ion-item *ngIf="pro">
+   <h2>Protein: {{pro}} kcal</h2>
+   </ion-item>
+   </ion-card>
+<ion-card> <ion-item *ngIf="fat">
+   <h2>Fats: {{fat}} kcal</h2>
+   </ion-item>
+   </ion-card>
 </ion-content>
