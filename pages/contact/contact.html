@@ -45,11 +45,11 @@
       <ion-option value="2.3">Professional athlete</ion-option>
     </ion-select>
   </ion-item>
-  </ion-card>
 
-  <button ion-button color="primary" (click)="Calculate()"> CALCULATE </button>
-  
+  </ion-card>
+  <button ion-button block color="primary" (click)="Calculate()"> CALCULATE </button>
   <ion-card>
+    
   <ion-item *ngIf="dci">
     <h2>Daily Calorie Intake: {{dci}} kcal/day</h2>
   </ion-item>
