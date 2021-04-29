@@ -11,9 +11,15 @@ p {
   text-align: justify;
   font-family: Helvetica;
   position: relative;
-  top: 40px;
+  top: 120px;
 }
 img {
   position: relative;
-  top: 30px;
+  top: 70px;
+}
+ion-card {
+  position: relative;
+  top: 90px;
+  font-family: Helvetica;
+  text-align: justify;
 }
