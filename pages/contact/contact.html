@@ -6,7 +6,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
    <img src="https://cdn.jsdelivr.net/gh/GinoGH-19/EMTECH-PE-GRP5@master/DCI1.png">
 
 
@@ -49,7 +49,7 @@
   </ion-card>
   <button ion-button block color="primary" (click)="Calculate()"> CALCULATE </button>
   <ion-card>
-    
+
   <ion-item *ngIf="dci">
     <h2>Daily Calorie Intake: {{dci}} kcal/day</h2>
   </ion-item>
