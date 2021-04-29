@@ -14,6 +14,9 @@ export class ContactPage {
   wt: number;
   age: number;
   bmr: number;
+  car: number;
+  pro: number;
+  fat: number
 
   constructor(public navCtrl: NavController) {}
   Calculate() {
