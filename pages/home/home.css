@@ -9,4 +9,10 @@ h2 {
 p {
   text-align: justify;
   font-family: Helvetica;
+  position: relative;
+  top: 40px;
+}
+img {
+  position: relative;
+  top: 30px;
 }
