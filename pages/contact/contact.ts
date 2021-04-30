@@ -36,6 +36,6 @@ export class ContactPage {
     
     this.car = parseFloat (this.car.toFixed(2));
     this.pro = parseFloat (this.pro.toFixed(2));
-    this.dc = parseFloat (this.dci.toFixed(2));
+    this.fat = parseFloat (this.fat.toFixed(2));
   }
 }
