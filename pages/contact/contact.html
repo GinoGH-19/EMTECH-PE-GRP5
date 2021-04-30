@@ -8,6 +8,7 @@
  
 <ion-content padding>
    <img padding src="https://cdn.jsdelivr.net/gh/GinoGH-19/EMTECH-PE-GRP5@master/BLUE.png">
+
   <ion-card>
   <ion-item>
     <ion-label color="dark"> Gender: </ion-label>
@@ -15,7 +16,7 @@
       <ion-option value="m">Male</ion-option>
       <ion-option value="f">Female</ion-option>
     </ion-select>
-</ion-item>
+  </ion-item>
 
   <ion-item color="primary">
    <ion-label color="light"> Height (cm): </ion-label>
@@ -36,10 +37,10 @@
     <ion-label color="dark"> Activity Level: </ion-label>
     <ion-select interface="popover" [(ngModel)]="al">
       <ion-option value="1.2">Little or no exercise</ion-option>
-      <ion-option value="1.4">Light exercise (1-2 days/week)</ion-option>
-      <ion-option value="1.6">Moderate exercise (2-3 days/week)</ion-option>
-      <ion-option value="1.75">Hard exercise (4-5 days/week)</ion-option>
-      <ion-option value="2.0">Very hard exercise (6-7 days/week)</ion-option>
+      <ion-option value="1.4">Light exercise (1-2 d/wk)</ion-option>
+      <ion-option value="1.6">Moderate exercise (2-3 d/wk)</ion-option>
+      <ion-option value="1.75">Hard exercise (4-5 d/wk)</ion-option>
+      <ion-option value="2.0">Very hard exercise (6-7 d/wk)</ion-option>
       <ion-option value="2.3">Professional athlete</ion-option>
     </ion-select>
   </ion-item>
@@ -63,6 +64,6 @@
   <ion-item color="primary" *ngIf="fat">
    <ion-label color="light"> Fats: {{fat}} kcal </ion-label>
   </ion-item>
-   </ion-card>
-   
+  </ion-card>
+
 </ion-content>
