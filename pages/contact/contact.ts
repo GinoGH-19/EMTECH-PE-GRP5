@@ -34,5 +34,8 @@ export class ContactPage {
     this.pro = this.dci * .125
     this.fat = this.dci * .275
     
+    this.car = parseFloat (this.car.toFixed(2));
+    this.pro = parseFloat (this.pro.toFixed(2));
+    this.dc = parseFloat (this.dci.toFixed(2));
   }
 }
