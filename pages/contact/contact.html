@@ -17,8 +17,8 @@
     </ion-select>
 </ion-item>
 
-  <ion-item>
-   <ion-label color="dark"> Height (cm): </ion-label>
+  <ion-item color="primary">
+   <ion-label color="light"> Height (cm): </ion-label>
    <ion-input type="number" [(ngModel)]="ht"> </ion-input>
   </ion-item>
 
@@ -27,8 +27,8 @@
    <ion-input type="number" [(ngModel)]="wt"> </ion-input>
   </ion-item>
 
-  <ion-item>
-   <ion-label color="dark"> Age: </ion-label>
+  <ion-item color="primary">
+   <ion-label color="light"> Age: </ion-label>
    <ion-input type="number" [(ngModel)]="age"> </ion-input>
   </ion-item>
 
@@ -51,13 +51,13 @@
   <ion-item *ngIf="dci">
     <h2>Daily Calorie Intake: {{dci}} kcal/day</h2>
   </ion-item>
- <ion-item *ngIf="car">
+ <ion-item color="primary" *ngIf="car">
    <h2>Carbs: {{car}} kcal</h2>
    </ion-item>
 <ion-item *ngIf="pro">
   <h2>Proteins: {{pro}} kcal</h2>
   </ion-item>
-<ion-item *ngIf="fat">
+<ion-item color="primar" *ngIf="fat">
    <h2>Fats: {{fat}} kcal</h2>
    </ion-item>
    </ion-card>
