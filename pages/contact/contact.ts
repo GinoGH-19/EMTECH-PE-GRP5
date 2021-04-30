@@ -33,5 +33,6 @@ export class ContactPage {
     this.car = this.dci * .6
     this.pro = this.dci * .125
     this.fat = this.dci * .275
+    
   }
 }
