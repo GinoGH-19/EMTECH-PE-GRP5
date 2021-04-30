@@ -15,11 +15,11 @@ p {
 }
 img {
   position: relative;
-  top: 60px;
+  top: 50px;
 }
 ion-card {
   position: relative;
-  top: 80px;
+  top: 70px;
   font-family: Helvetica;
   text-align: justify;
 }
