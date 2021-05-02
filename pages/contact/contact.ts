@@ -4,7 +4,7 @@ import { NavController } from 'ionic-angular';
 @Component({
   selector: 'page-contact',
   templateUrl: 'contact.html',
-  styleUrls: ['contact.css']
+  styleUrls: ['contact.css'],
 })
 export class ContactPage {
   gender: string;
@@ -32,7 +32,7 @@ export class ContactPage {
 
     this.car = this.dci * .6;
     this.pro = this.dci * .125;
-    this.fat = this.dci * .275:
+    this.fat = this.dci * .275
     
     this.car = parseFloat (this.car.toFixed(2));
     this.pro = parseFloat (this.pro.toFixed(2));
